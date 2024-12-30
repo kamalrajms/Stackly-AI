@@ -960,6 +960,10 @@ i {
 }
 
 @media screen and (max-width: 450px) {
+  .Title p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .LeftHead {
     flex-wrap: wrap;
     padding-left: 20px;
@@ -994,10 +998,7 @@ i {
   }
 }
 @media screen and (max-width: 350px) {
-  .Title p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  
   .pg7holder {
     width: 90%;
   }
