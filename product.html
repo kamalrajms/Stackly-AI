@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stackly AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page3">
+        <div class="Header">
+            <sub class="RightHead">
+                <img src="remove.png" class="logo" />
+            </sub>
+            <sub class="LeftHead">
+                <a href="trend.html">Trends</a>
+                <a href="product.html" id="underline-nav">Products</a>
+                <a href="priceing.html">Pricing</a>
+                <a href="api.html">API</a>
+                <a href="contactus.html">Contact us</a>
+                <a href="signin.html">Sign In</a>
+                <a href="signup.html" id="SignUp">Signup</a>
+            </sub>
+
+            <div class="nav-tog" onclick="openSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="close" onclick="closeSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </div>
+            <a onclick="closeSidebar()" href="trend.html">Trends</a>
+            <a onclick="closeSidebar()" href="product.html">Products</a>
+            <a onclick="closeSidebar()" href="priceing.html">Pricing</a>
+            <a onclick="closeSidebar()" href="api.html">API</a>
+            <a onclick="closeSidebar()" href="contactus.html">Contact us</a>
+            <a onclick="closeSidebar()" href="signin.html">Sign In</a>
+            <a onclick="closeSidebar()" href="signup.html">Signup</a>
+        </div>
+
+        <div class="pg5body">
+            <div class="Title">
+                <p>AI Tec hnology for </p>
+                <p>Interiors, Exteriors, Outdoors</p>
+            </div>
+            <div class="design">
+                <button class="inex interior" onclick="showInterior()">Interiors</button>
+                <button class="inex exterior" onclick="showExterior()">Exteriors</button>
+                <button class="inex outdoor" onclick="showOutdoor()">Outdoors</button>
+            </div>
+            <div id="interior" class="rooms">
+                <div class="room">
+                    <nav class="roomtit">Living Room</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Bedroom</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Kitchen</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Dining Room</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Study Room</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Home Office</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Family Room</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Kids Room</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Balcony</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Gaming Room</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Bath Room</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Pooja Room</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+            </div>
+            <div id="exterior" class="rooms">
+                <div class="room">
+                    <nav class="roomtit">Side of House</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Front of House</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Back of House</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+
+            </div>
+            <div id="outdoor" class="rooms">
+                <div class="room">
+                    <nav class="roomtit">Backyard Room</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Patio</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">terrace</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Fornt Yard</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Garden</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Courtyard</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Pool Area</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Porch</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Playground</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Conversational Area</nav>
+                    <img src="patio.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+                <div class="room">
+                    <nav class="roomtit">Fountain</nav>
+                    <img src="backyard.jpg" class="pcs">
+                    <button class="me">Surprise me</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-right">
+                <div class="subfoot">
+                    <img src="remove.png" class="footerlogo" />
+                    <nav>Automatically generate photo-like images of your
+
+                        desired spaces in seconds. Unleash the most advanced
+
+                        AI interior design tool to boost your productivity.
+                    </nav>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-left">
+                <div class="footleftsub">
+                    <div class="footerleftsub">
+                        <div>Home</div>
+                        <nav>Trends</nav>
+                        <nav>Pricing</nav>
+                        <nav>API</nav>
+                        <nav>Sign In</nav>
+                        <nav>Sign Up</nav>
+                    </div>
+                    <div class="footerleftsub">
+                        <div>Terms & Policy</div>
+                        <nav>Terms of Services</nav>
+                        <nav>Privacy and Cookie Policy</nav>
+                        <nav>Cookie Settings</nav>
+                    </div>
+                    <div class="footerleftsub">
+                        <div>Contact Us</div>
+                        <nav>info@stacklyai.com</nav>
+                    </div>
+                    <div class="footerleftsub " id="leftsub">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="copy">
+            © 2023 Stackly AI | All Rights Reserved
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+    <script>
+
+        const interior = document.querySelector("#interior");
+        const exterior = document.querySelector("#exterior");
+        const outdoor = document.querySelector("#outdoor");
+
+        showInterior();
+
+        function showInterior() {
+            document.querySelector(".design>.interior").classList.add("butdesign");
+            document.querySelector(".design>.exterior").classList.remove("butdesign");
+            document.querySelector(".design>.outdoor").classList.remove("butdesign");
+
+            document.querySelector("#interior").style.display = "flex";
+            document.querySelector("#exterior").style.display = "none";
+            document.querySelector("#outdoor").style.display = "none";
+        }
+        function showExterior() {
+            document.querySelector(".design>.exterior").classList.add("butdesign");
+            document.querySelector(".design>.interior").classList.remove("butdesign");
+            document.querySelector(".design>.outdoor").classList.remove("butdesign");
+            document.querySelector("#interior").style.display = "none";
+            document.querySelector("#exterior").style.display = "flex";
+            document.querySelector("#outdoor").style.display = "none";
+        }
+        function showOutdoor() {
+            document.querySelector(".design>.interior").classList.remove("butdesign");
+            document.querySelector(".design>.exterior").classList.remove("butdesign");
+            document.querySelector(".design>.outdoor").classList.add("butdesign");
+            document.querySelector("#interior").style.display = "none";
+            document.querySelector("#exterior").style.display = "none";
+            document.querySelector("#outdoor").style.display = "flex";
+        }
+
+    </script>
+
+</body>
+
+</html>

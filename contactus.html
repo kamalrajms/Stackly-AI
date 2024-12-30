@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stackly AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pg8">
+        <div class="Header">
+            <sub class="RightHead">
+                <img src="remove.png" class="logo" />
+            </sub>
+            <sub class="LeftHead">
+                <a href="trend.html">Trends</a>
+                <a href="product.html">Products</a>
+                <a href="priceing.html">Pricing</a>
+                <a href="api.html">API</a>
+                <a href="contactus.html" id="underline-nav">Contact us</a>
+                <a href="signin.html">Sign In</a>
+                <a href="signup.html" id="SignUp">Signup</a>
+            </sub>
+
+            <div class="nav-tog" onclick="openSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="close" onclick="closeSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#5f6368">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </div>
+            <a onclick="closeSidebar()" href="trend.html">Trends</a>
+            <a onclick="closeSidebar()" href="product.html" >Products</a>
+            <a onclick="closeSidebar()" href="priceing.html">Pricing</a>
+            <a onclick="closeSidebar()" href="api.html">API</a>
+            <a onclick="closeSidebar()" href="contactus.html">Contact us</a>
+            <a onclick="closeSidebar()" href="signin.html">Sign In</a>
+            <a onclick="closeSidebar()" href="signup.html">Signup</a>
+        </div>
+        <div class="pg7body">
+            <div class="pg7tit">Contact Us</div>
+            <div class="pg7content">Please drop your message, and we'll be in touch shortly</div>
+            <div class="pg7form">
+                <div class="pg7point">
+                    <div class="pg7pointtitle">Name<sup>*</sup></div>
+                    <input class="pg7holder" placeholder="John smith"></input>
+                </div>
+                <div class="pg7point">
+                    <div class="pg7pointtitle">Email<sup>*</sup></div>
+                    <input class="pg7holder" placeholder="Johnsmith@example.com"></input>
+                </div>
+                <div class="pg7point">
+                    <div class="pg7pointtitle">Phone number<sup>*</sup></div>
+                    <input class="pg7holder" placeholder="+91 | 8367837362"></input>
+                </div>
+                <div class="pg7point">
+                    <div class="pg7pointtitle">Subject<sup>*</sup></div>
+                    <input class="pg7holder" placeholder="Select Subject" type=" checkbox"></input>
+                </div>
+                <div class="pg7point">
+                    <div class="pg7pointtitle">Message<sup>*</sup></div>
+                    <input class="pg7holder heightholder"></input>
+                </div>
+                <div class="pg7point point">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-right">
+                <div class="subfoot">
+                    <img src="remove.png" class="footerlogo" />
+                    <nav>Automatically generate photo-like images of your
+
+                        desired spaces in seconds. Unleash the most advanced
+
+                        AI interior design tool to boost your productivity.
+                    </nav>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-left">
+                <div class="footleftsub">
+                    <div class="footerleftsub">
+                        <div>Home</div>
+                        <nav>Trends</nav>
+                        <nav>Pricing</nav>
+                        <nav>API</nav>
+                        <nav>Sign In</nav>
+                        <nav>Sign Up</nav>
+                    </div>
+                    <div class="footerleftsub">
+                        <div>Terms & Policy</div>
+                        <nav>Terms of Services</nav>
+                        <nav>Privacy and Cookie Policy</nav>
+                        <nav>Cookie Settings</nav>
+                    </div>
+                    <div class="footerleftsub">
+                        <div>Contact Us</div>
+                        <nav>info@stacklyai.com</nav>
+                    </div>
+                    <div class="footerleftsub " id="leftsub">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="copy">
+            © 2023 Stackly AI | All Rights Reserved
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
